@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Waleed Hassan - Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+  <!-- Loading Animation -->
+  <div class="loading-animation">
+    <div class="loader"></div>
+  </div>
+
+  <!-- Navigation Bar -->
+  <nav id="navbar">
+    <ul>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button id="theme-toggle" title="Toggle Dark/Light Theme">
+      <i class="fas fa-moon"></i>
+    </button>
+  </nav>
+
+  <header>
+    <h1>Waleed Hassan</h1>
+    <p>Software Engineer | AI &amp; Full-Stack Developer</p>
+    <div class="social-links">
+      <a href="https://github.com/u218" class="social-icon" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/waleed55hassan" class="social-icon" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="mailto:whassan2855@gmail.com" class="social-icon">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- About Me Section -->
+    <section id="about" class="fade-in">
+      <h2>About Me</h2>
+      <p>
+        I'm a dedicated software engineer with a passion for developing scalable, data-driven solutions.
+        My experience ranges from designing full-stack web applications to building machine learning pipelines.
+        I excel at transforming complex technical challenges into efficient, real-world solutions.
+      </p>
+      <p>You can view or download my CV below:</p>
+      <a href="Waleed_Hassan_CV.pdf" target="_blank" class="cv-button" title="Download My CV (PDF)">
+        <i class="fas fa-download"></i> Download CV
+      </a>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="fade-in">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Programming</h3>
+          <div class="skill-item">
+            <div class="skill-header">
+              <span>Python</span>
+              <span>95%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 95%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header">
+              <span>JavaScript</span>
+              <span>90%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 90%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header">
+              <span>Java</span>
+              <span>85%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 85%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>Frameworks &amp; Tools</h3>
+          <div class="skill-item">
+            <div class="skill-header">
+              <span>React</span>
+              <span>90%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 90%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header">
+              <span>SQL</span>
+              <span>85%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 85%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header">
+              <span>Git</span>
+              <span>95%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 95%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="fade-in">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <img src="stock-prediction.jpg" alt="Stock Prediction App" class="project-image">
+          <div class="project-content">
+            <h3>Stock Prediction &amp; Forecast</h3>
+            <p>Interactive app using Python, Streamlit, GRU, and LSTM for real-time stock forecasting.</p>
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">Machine Learning</span>
+              <span class="project-tag">Streamlit</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="handwriting.jpg" alt="Handwritten Word Recognition" class="project-image">
+          <div class="project-content">
+            <h3>Handwritten Word Recognition</h3>
+            <p>Machine learning pipeline for accurate handwritten text recognition using Python and NLTK.</p>
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">NLTK</span>
+              <span class="project-tag">ML</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="hotel-booking.jpg" alt="Hotel Booking System" class="project-image">
+          <div class="project-content">
+            <h3>Hotel Booking Prediction</h3>
+            <p>Predictive model achieving 89% training accuracy for hotel booking cancellation prediction.</p>
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">Data Science</span>
+              <span class="project-tag">ML</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="fade-in">
+      <h2>Contact &amp; Links</h2>
+      <div class="contact-grid">
+        <a href="mailto:whassan2855@gmail.com" class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <span>whassan2855@gmail.com</span>
+        </a>
+        <a href="https://www.linkedin.com/in/waleed55hassan" class="contact-item" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-linkedin"></i>
+          <span>linkedin.com/in/waleed55hassan</span>
+        </a>
+        <a href="https://github.com/u218" class="contact-item" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-github"></i>
+          <span>github.com/u218</span>
+        </a>
+        <a href="tel:+447930997625" class="contact-item">
+          <i class="fas fa-phone"></i>
+          <span>+44 7930 997625</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Waleed Hassan</p>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="back-to-top" title="Back to Top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- JavaScript -->
+  <script>
+    // Loading Animation
+    window.addEventListener('load', () => {
+      document.querySelector('.loading-animation').classList.add('hide');
+    });
+
+    // Scroll Fade-In Animation
+    const fadeInElements = document.querySelectorAll('.fade-in');
+    const observerOptions = { root: null, threshold: 0.1 };
+
+    const fadeInOnScroll = (entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(fadeInOnScroll, observerOptions);
+    fadeInElements.forEach(el => observer.observe(el));
+
+    // Skill Bar Animation
+    const skillBars = document.querySelectorAll('.skill-bar');
+    const skillObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animate');
+        }
+      });
+    }, { threshold: 0.5 });
+
+    skillBars.forEach(bar => skillObserver.observe(bar));
+
+    // Back-to-Top Button
+    const backToTop = document.getElementById('back-to-top');
+    window.addEventListener('scroll', () => {
+      if (window.pageYOffset > 300) {
+        backToTop.classList.add('show');
+      } else {
+        backToTop.classList.remove('show');
+      }
+    });
+
+    backToTop.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // Theme Toggle
+    const themeToggle = document.getElementById('theme-toggle');
+    const themeIcon = themeToggle.querySelector('i');
+    
+    // Check for saved theme preference
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+      document.body.setAttribute('data-theme', savedTheme);
+      themeIcon.className = savedTheme === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
+    }
+
+    themeToggle.addEventListener('click', () => {
+      const currentTheme = document.body.getAttribute('data-theme');
+      const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+      
+      document.body.setAttribute('data-theme', newTheme);
+      localStorage.setItem('theme', newTheme);
+      themeIcon.className = newTheme === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
+    });
+
+    // Navbar Scroll Effect
+    const navbar = document.getElementById('navbar');
+    let lastScroll = 0;
+
+    window.addEventListener('scroll', () => {
+      const currentScroll = window.pageYOffset;
+      
+      if (currentScroll > lastScroll && currentScroll > 100) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+      
+      lastScroll = currentScroll;
+    });
+  </script>
+</body>
+</html>
